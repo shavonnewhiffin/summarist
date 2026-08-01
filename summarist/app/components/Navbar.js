@@ -3,7 +3,6 @@ import styles from '../styles/Navbar.module.css'
 import Image from "next/image"
 
 export default function Navbar() {
-   console.log(styles)
     return (
     <nav className={styles.nav}>
       <div className={styles.nav__wrapper}>
