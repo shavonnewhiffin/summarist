@@ -40,3 +40,9 @@
 .nav__list--login {
   cursor: pointer;
 }
+
+@media (max-width: 576px) {
+  .nav__list--mobile {
+    display: none;
+  }
+}
